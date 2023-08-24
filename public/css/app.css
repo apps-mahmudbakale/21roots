@@ -31241,7 +31241,7 @@ div#mCSB_1_container{
   position: absolute;
   left: 0px;
   top: 0px;
-  background: #fff;
+  /* background: #fff; */
   padding: 41px 67px 39px 58px;
   border-top: 5px solid #ffdc4c;
 }

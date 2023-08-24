@@ -22,7 +22,7 @@
     <!-- page-title end -->
 
 
-    <!-- about-style-nine -->
+    {{-- <!-- about-style-nine -->
     <section class="about-style-nine">
         <div class="auto-container">
             <div class="row clearfix">
@@ -73,127 +73,38 @@
             </div>
         </div>
     </section>
-    <!-- about-style-nine end -->
-
-
-    <!-- feature-style-two -->
-    <section class="feature-style-two">
+    <!-- about-style-nine end --> --}}
+    <!-- company-section -->
+    <section class="company-section">
         <div class="auto-container">
-            <div class="row clearfix">
+            <div class="row align-items-center">
                 <div class="col-lg-7 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title">
-                            <h6>Our Clinic Features</h6>
-                            <h2>Why choose our cleaning service for home</h2>
+                            <h6>about our service</h6>
+                            <h2>21roots</h2>
                         </div>
                         <div class="text">
-                            <p>All of our services are provided by registered psychologists, or by experienced masters and doctoral clinicians under the supervision of a psychologist.</p>
-                        </div>
-                        <div class="list-inner">
-                            <ul class="list-style-one clearfix">
-                                <li>Personalized Cleaning</li>
-                                <li>Licensed Cleaner</li>
-                                <li>Experience Staff</li>
-                                <li>Comfortable Timing</li>
-                            </ul>
-                            <ul class="list-style-one clearfix">
-                                <li>Personalized Cleaning</li>
-                                <li>Licensed Cleaner</li>
-                                <li>Experience Staff</li>
-                                <li>Comfortable Timing</li>
-                            </ul>
+                            <p style="text-align: justify">At 21Roots we firmly believe in creating exceptional spaces that inspire and transform lives. Our Estate Development division is dedicated to envisioning, designing, and constructing exquisite properties that surpass expectations. Whether it's luxurious residential complexes, vibrant commercial spaces, or awe-inspiring mixed-use developments, we take immense pride in delivering top-quality projects that harmonize with their surroundings and add value to the communities we serve.</p>
+                            <p>Besides, you can book our AC services from the comfort of your home.You just need to give us a call or send us your query to book our professional AC repair services within minutes whether the issue is big or small, our professionals will come to provide doorstep repair solutions at the promised time. Our 30 days service warranty further assures you that you’ll get the best value for your money.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-12 col-sm-12 video-column">
-                    <div class="video-content">
-                        <div class="video-inner" style="background-image: url(assets/images/background/video-bg-2.jpg);">
-                            <div class="btn-box">
-                                <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="lightbox-image video-btn" data-caption=""><i class="fas fa-play"></i></a>
-                            </div>
-                        </div>
+                <div class="col-lg-5 col-md-12 col-sm-12 inner-column">
+                    <div class="list-inner">
+                        <ul class="list clearfix">
+                            <li>High-Quality AC Repairs</li>
+                            <li>Experienced AC Service Engineers</li>
+                            <li>90-day warranty on spare parts</li>
+                            <li>AC AMC (Annual Maintenance) Available</li>
+                            <li>30-day warranty on service</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- feature-style-two end -->
-
-
-    <!-- testimonial-section -->
-    <section class="testimonial-section about-page">
-        <div class="auto-container">
-            <div class="sec-title">
-                <h6>testimonials</h6>
-                <h2>What They Say About Our Service</h2>
-            </div>
-            <div class="three-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-                <div class="testimonial-block-one">
-                    <div class="inner-box">
-                        <div class="text-inner">
-                            <div class="quote"><i class="flaticon-quotation"></i></div>
-                            <ul class="rating clearfix">
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                            </ul>
-                            <p>I must explain to you how all this mistaken idea of denouncing pleas ure and praising pain was born and I will give you a complete.</p>
-                        </div>
-                        <div class="author-box">
-                            <figure class="author-thumb"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
-                            <h5>Robert Mick</h5>
-                            <span class="designation">Customer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block-one">
-                    <div class="inner-box">
-                        <div class="text-inner">
-                            <div class="quote"><i class="flaticon-quotation"></i></div>
-                            <ul class="rating clearfix">
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                            </ul>
-                            <p>I must explain to you how all this mistaken idea of denouncing pleas ure and praising pain was born and I will give you a complete.</p>
-                        </div>
-                        <div class="author-box">
-                            <figure class="author-thumb"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
-                            <h5>Robert Mick</h5>
-                            <span class="designation">Customer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block-one">
-                    <div class="inner-box">
-                        <div class="text-inner">
-                            <div class="quote"><i class="flaticon-quotation"></i></div>
-                            <ul class="rating clearfix">
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                                <li><i class="fas fa-star"></i></li>
-                            </ul>
-                            <p>I must explain to you how all this mistaken idea of denouncing pleas ure and praising pain was born and I will give you a complete.</p>
-                        </div>
-                        <div class="author-box">
-                            <figure class="author-thumb"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
-                            <h5>Robert Mick</h5>
-                            <span class="designation">Customer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- testimonial-section end -->
-
-
+    <!-- company-section end -->
     <!-- team-section -->
     <section class="team-section about-page">
         <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-1.jpg);"></div>
@@ -283,38 +194,4 @@
         </div>
     </section>
     <!-- team-section end -->
-
-
-    <!-- company-section -->
-    <section class="company-section">
-        <div class="auto-container">
-            <div class="row align-items-center">
-                <div class="col-lg-7 col-md-12 col-sm-12 content-column">
-                    <div class="content-box">
-                        <div class="sec-title">
-                            <h6>about our service</h6>
-                            <h2>Cleanex Cleaning Company</h2>
-                        </div>
-                        <div class="text">
-                            <p>At Airtronix, we provide a comprehensive range of air conditioner services including Air conditioner repair, AC installation/removal, AC servicing, aircon servicing, AC gas filling charges, leakage repair, advanced piping, and more- all available at affordable and transparent prices.</p>
-                            <p>Besides, you can book our AC services from the comfort of your home.You just need to give us a call or send us your query to book our professional AC repair services within minutes whether the issue is big or small, our professionals will come to provide doorstep repair solutions at the promised time. Our 30 days service warranty further assures you that you’ll get the best value for your money.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-12 col-sm-12 inner-column">
-                    <div class="list-inner">
-                        <ul class="list clearfix">
-                            <li>High-Quality AC Repairs</li>
-                            <li>Experienced AC Service Engineers</li>
-                            <li>90-day warranty on spare parts</li>
-                            <li>AC AMC (Annual Maintenance) Available</li>
-                            <li>30-day warranty on service</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- company-section end -->
-
 @endsection

@@ -28,35 +28,27 @@
         </ul>
       </li><!-- End Components Nav -->
       @endcan
-      @can('read-jobs')
+      @can('read-projects')
        <li class="nav-item">
-        <a class="nav-link collapsed" href="{{route('admin.jobs.index')}}">
+        <a class="nav-link collapsed" href="{{route('admin.projects.index')}}">
           <i class="bi bi-briefcase"></i>
-          <span>Jobs</span>
+          <span>Projects</span>
         </a>
       </li><!-- End Dashboard Nav -->
       @endcan
-      @can('read-recruites')
+      @can('read-products')
        <li class="nav-item">
-        <a class="nav-link collapsed" href="{{route('admin.recruites.index')}}">
-          <i class="bi bi-people"></i>
-          <span>Recruites</span>
+        <a class="nav-link collapsed" href="{{route('admin.products.index')}}">
+          <i class="bi bi-gift"></i>
+          <span>Products</span>
         </a>
       </li><!-- End Dashboard Nav -->
       @endcan
-      @can('read-users')
+      @can('read-services')
        <li class="nav-item">
-        <a class="nav-link collapsed" href="{{route('admin.questions.index')}}">
-          <i class="bi bi-book"></i>
-          <span>Interview Questions</span>
-        </a>
-      </li><!-- End Dashboard Nav -->
-      @endcan
-      @can('read-documents')
-       <li class="nav-item">
-        <a class="nav-link collapsed" href="{{route('admin.documents.index')}}">
-          <i class="bi bi-card-text"></i>
-          <span>Documents</span>
+        <a class="nav-link collapsed" href="{{route('admin.services.index')}}">
+          <i class="bi bi-collection"></i>
+          <span>Services</span>
         </a>
       </li><!-- End Dashboard Nav -->
       @endcan

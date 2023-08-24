@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,11 +19,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::get('/about', function () {
     return view('about');
-});
+})->name('about');
 
 Auth::routes();
 
@@ -33,9 +37,9 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], 
     Route::get('profile', [UserController::class, 'profile'])->name('profile');
     Route::put('profile/{id}', [UserController::class, 'updateProfile'])->name('update.profile');
     Route::resource('roles', RoleController::class);
-    Route::resource('recruites', RecruiteController::class);
-    Route::resource('jobs', JobController::class);
-    Route::resource('documents', DocumentController::class);
+    Route::resource('projects', ProjectController::class);
+    Route::resource('products', ProductController::class);
+    Route::resource('services', ServiceController::class);
     Route::get('changePassword', [UserController::class, 'changepasswordForm'])->name('password.change');
     Route::post('changepassword', [UserController::class, 'changepassword'])->name('change.password');
 

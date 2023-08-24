@@ -1,7 +1,7 @@
  <!-- main header -->
  <header class="main-header header-style-seven">
     <div class="upper-logo">
-        <figure class="logo"><a href="/"><h3>21Roots</h3></a></figure>
+        <figure class="logo"><a href="/"><img src="{{asset('images/log.png')}}" alt="" style="width:155px; height:98px;"></a></figure>
     </div>
     <!-- header-top -->
     <div class="header-top">
@@ -32,8 +32,8 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="current"><a href="#">Home</a></li>  
-                                    <li><a href="#">About Us</a></li>
+                                    <li class="current"><a href="{{route('welcome')}}">Home</a></li>  
+                                    <li><a href="{{route('about')}}">About Us</a></li>
                                     <li class="dropdown"><a href="#">Services</a>
                                         <ul>
                                             <li><a href="service.html">All Service - 01</a></li>
@@ -74,7 +74,7 @@
         <div class="auto-container">
             <div class="outer-box">
                 <div class="logo-box">
-                    <figure class="logo"><a href=""><h3>21Roots</h3></a></figure>
+                    <figure class="logo"><a href=""><img src="{{asset('images/log.png')}}" alt="" style="width: 155px; height:98px;"></a></figure>
                 </div>
                 <div class="menu-area clearfix">
                     <nav class="main-menu clearfix">
